@@ -13,11 +13,17 @@ This project demonstrates how to stream customer data from a CSV file into an Ap
 
 ## 📁 Files in the Repository
 ```
-├── customer.json # JSON data generated from CSV
-├── first_100_customers.csv # Source data
-├── client.properties # Kafka client configuration
-├── confluent_kafka_producer.py # Main Kafka producer script
-└── README.md # Project documentation
+.
+├── src/
+│   └── confluent_kafka_producer.py
+├── data/
+│   ├── customer.json
+│   └── first_100_customers.csv
+├── config/
+│   ├── client.properties
+│   └── requirement.txt
+└── README.md
+
 ```
 
 ## ⚙️ Setup & Execution
